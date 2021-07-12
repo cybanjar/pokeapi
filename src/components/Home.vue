@@ -42,7 +42,7 @@ export default defineComponent({
         })
 
         
-        const detail = (val) => {
+        const detail = (val: string) => {
             store.commit("setUrl", val);
             router.push({ path: '/detail' })
         }

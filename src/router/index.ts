@@ -15,11 +15,11 @@ const routes = [
         name: "Detail",
         component: Detail
     },
-    // {
-    //     path: "/user",
-    //     name: "User",
-    //     component: User
-    // }
+    {
+        path: "/user",
+        name: "User",
+        component: User
+    }
 ];
 
 const router = createRouter({
